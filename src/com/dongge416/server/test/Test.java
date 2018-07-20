@@ -14,6 +14,7 @@ public class Test extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 //		super.doGet(req, resp);
+		//aaaa测试注释
 		PrintWriter out = resp.getWriter();
 		out.println("Hello World999");
 		out.close();
