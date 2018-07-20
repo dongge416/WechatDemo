@@ -12,11 +12,22 @@
   
    <servlet>
         <servlet-name>Test</servlet-name>
-        <servlet-class>com.dongge416.server.test</servlet-class>
+        <servlet-class>com.dongge416.server.test.Test</servlet-class>
     </servlet>
     
     <servlet-mapping>
         <servlet-name>Test</servlet-name>
         <url-pattern>/Test</url-pattern>
     </servlet-mapping>
+    
+      <servlet>
+        <servlet-name>CallbackServlet</servlet-name>
+        <servlet-class>com.dongge416.server.web.CallbackServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>CallbackServlet</servlet-name>
+        <url-pattern>/*</url-pattern>
+    </servlet-mapping>
+    
 </web-app>
